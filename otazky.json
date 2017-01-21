@@ -1,0 +1,68 @@
+{
+  "otazky":[
+    {
+      "id":"1",
+      "text":"Otázka č. 1",
+      "odpovede":[
+        {
+          "text":"Odpoveď 1.1",
+          "body":-1
+        },
+        {
+          "text":"Odpoveď 1.2",
+          "body":0
+        },
+        {
+          "text":"Odpoveď 1.3",
+          "body":1
+        }
+      ]
+    },
+    {
+      "id":"2",
+      "text":"Otázka č. 2",
+      "odpovede":[
+        {
+          "text":"Odpoveď 2.1",
+          "body":-1
+        },
+        {
+          "text":"Odpoveď 2.2",
+          "body":0
+        },
+        {
+          "text":"Odpoveď 2.3",
+          "body":1
+        }
+      ]
+    },
+    {
+      "id":"3",
+      "text":"Otázka č. 3",
+      "odpovede":[
+        {
+          "text":"Odpoveď 3.1",
+          "body":0
+        },
+        {
+          "text":"Odpoveď 3.2",
+          "body":1
+        }
+      ]
+    }
+  ],
+  "hodnotenie":[
+    {
+      "podmienka":"pocetBodov < 0",
+      "text":"Spätná vázba 1"
+    },
+    {
+      "podmienka":"(pocetBodov >=0) && (pocetBodov < 2)",
+      "text":"Spätná vázba 2"
+    },
+    {
+      "podmienka":"pocetBodov > 2",
+      "text":"Spätná vázba 3"
+    }
+  ]
+}
